@@ -1,0 +1,68 @@
+.subject h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.subject h1{
+    font-size: 3rem;    
+}
+
+.subject h2{
+    font-size: 2rem;
+    margin: 20px 0;
+    clear: left;
+}
+
+.subject>ul>li>h3 ~ p{
+    margin-top: 20px;
+}
+
+.subject h3{
+    font-size: 1.5rem;
+}
+
+.subject>header>h1{
+    margin: 20px 0;
+    
+}
+
+.post-cabecalho{
+    font-size: 0;
+    line-height: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.post-cabecalho>*{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* .post-cabecalho+div::before{
+    content: "\A\A\A";
+    display: block;
+    white-space: pre-wrap;
+    margin-top: 25px;
+} */
+
+.link-category{
+    background-color: #40E0D0;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 1.93;
+    font-weight: 400;
+    letter-spacing: .1em;
+    font-family: questrial,-apple-system,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.img-main{
+    shape-outside: circle(50%); 
+    clip-path: circle(50%);  
+    width: 300px;  
+    height: 300px; 
+    float: left;
+}

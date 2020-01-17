@@ -1,0 +1,230 @@
+@import "pages/header.css";
+@import "pages/subject.css";
+
+/* Reset CSS 
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+p, small{
+    font-family: 'Roboto', sans-serif
+}
+
+small {
+    font-size: 80%;
+}
+
+p {
+   margin-bottom: 24px;
+   box-sizing: border-box;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 26px;
+   text-align: justify;    
+}
+
+main{
+    margin-top: 30px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+time {
+    font-size: 10px;
+    line-height: 2;
+    font-weight: 400;
+    font-family: questrial,-apple-system,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    color: #9c9494;
+}
+
+time::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 20px;
+    margin-top: -10px;
+    border-left: 1px solid rgba(17,17,17,.1);
+}
+
+/* FLEX CONTAINER */
+
+/* DISPLAY - Define o elemento como um flex container, tornando os seus filhos flex-itens.*/
+.flex{
+    display: flex;    
+}
+
+/* DIRECTION - Define a direção dos flex itens.  */
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+/* WRAP - Define se os itens devem quebrar ou não a linha. */
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse
+}
+
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+/* JUSTIFY-CONTENT - Alinha os itens flex no container de acordo com a direção.  */
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-space-around{
+    justify-content: space-around;
+}
+
+/* ALIGN-ITEMS - O align-items alinha os flex itens de acordo com o eixo do container.  */
+
+.flex-align-stretch{
+    align-items: stretch;
+}
+
+.flex-align-center{
+    align-items: center;
+}
+
+.flex-align.start{
+    align-items: flex-start;
+}
+
+.flex-align.end{
+    align-items: flex-end;
+}
+
+.flex-align.baseline{
+    align-items: baseline;
+}
+
+/* FLEX ITEM */
+
+.flex-item-grow-1{
+    flex-grow: 1;
+}
+
+.flex-item-grow-2{
+    flex-grow: 2;
+}
+
+.flex-item-grow-3{
+    flex-grow: 3;
+}
+
+.container{
+    padding: 0.01em 16px;
+}
+
+.bs-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .bs-container {
+    max-width: 576px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bs-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bs-container {
+    max-width: 1200px;
+  }
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
