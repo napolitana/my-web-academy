@@ -1,13 +1,26 @@
-.navbar>nav{
-    height: 80px;
-    color: #40E0D0;
-}
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap');
+
 
 .navbar{
     background-color: #1C1C1C;    
 }
 
+.navbar>nav{
+    height: 80px;
+}
+
 .navbar>nav>ul>li{
-    padding: 0 5px;
+    padding: 0 10px;
     color: #FFF;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.logo{
+    color: #40E0D0;
+    font-family: 'Homemade Apple', cursive; 
+    font-size: 30px;
+
 }

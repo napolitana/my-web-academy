@@ -1,5 +1,6 @@
 @import "pages/header.css";
 @import "pages/subject.css";
+@import "pages/footer.css";
 
 /* Reset CSS 
    http://meyerweb.com/eric/tools/css/reset/ 
@@ -54,9 +55,7 @@ table {
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 
-p, small{
-    font-family: 'Roboto', sans-serif
-}
+
 
 small {
     font-size: 80%;
@@ -78,6 +77,10 @@ main{
 a {
     color: #000;
     text-decoration: none;
+}
+
+body{
+    background-color: #fafaf9;
 }
 
 time {
@@ -224,7 +227,12 @@ time::before{
 }
 
 @font-face {
-  font-family: Montserrat;
+  font-family: Montserrat-Regular;
   src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
 }
 
