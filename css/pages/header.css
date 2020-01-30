@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
 
 
 .navbar{
@@ -18,9 +20,13 @@
     font-size: 14px;
 }
 
-.logo{
+.logo>span{
     color: #40E0D0;
-    font-family: 'Homemade Apple', cursive; 
+    font-family: 'Bangers', cursive;
     font-size: 30px;
+}
 
+.logo{
+    color: #FFF;
+    font-family: 'Courier Prime', monospace;
 }

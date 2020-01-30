@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Academy</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
@@ -16,7 +17,11 @@
                 <li>CSS3</li>
                 <li>JavaScript</li>
             </ul>
-            <span class="logo"> Logo  </span>
+            <div class="flex flex-column logo">
+                <span class="logo"> My Web  </span>
+                Academy
+            </div>
+            
             <ul class="flex">
                 <li>Outra categoria</li>
                 <li>Outra categoria</li>
@@ -43,7 +48,9 @@
 
             <header class="flex flex-space-between">
                 <h1>HTML: Meta Tags</h1>
-                <img src="https://media.tenor.com/images/89af4072334bf549e4a761b62b028302/tenor.gif" alt="" width="132px">
+                <div class="article-gif">
+                    <!-- <img src="https://media.tenor.com/images/89af4072334bf549e4a761b62b028302/tenor.gif" alt="" width="132px"> -->
+                </div> 
             </header>
 
 
@@ -75,57 +82,70 @@
                 para o usuário na página web.
             </p>
 
-            <h2>Tipos de meta tags</h2>
-            <ul>
-                <!-- Lista das principais meta tags-->
-                <li>
-                    <h3>
-                        Http-equiv
-                    </h3>
+            <div class="flex flex-wrap flex-space-between">
+                <div class="post-list">
+                <h2>Tipos de meta tags</h2>
+                <ul>
+                    <!-- Lista das principais meta tags-->
+                    <li>
+                        <h3>
+                            Http-equiv
+                        </h3>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        semper ac orci in hendrerit. Donec scelerisque lacus sapien,
-                        pulvinar finibus purus dignissim ac. Proin dignissim auctor
-                        lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
-                        magna, non aliquam nulla tempus lacinia.
-                    </p>
-                </li>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                            semper ac orci in hendrerit. Donec scelerisque lacus sapien,
+                            pulvinar finibus purus dignissim ac. Proin dignissim auctor
+                            lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
+                            magna, non aliquam nulla tempus lacinia.
+                        </p>
+                    </li>
 
-                <li>
-                    <h3>
-                        Name
-                    </h3>
+                    <li>
+                        <h3>
+                            Name
+                        </h3>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        semper ac orci in hendrerit. Donec scelerisque lacus sapien,
-                        pulvinar finibus purus dignissim ac. Proin dignissim auctor
-                        lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
-                        magna, non aliquam nulla tempus lacinia.
-                    </p>
-                </li>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                            semper ac orci in hendrerit. Donec scelerisque lacus sapien,
+                            pulvinar finibus purus dignissim ac. Proin dignissim auctor
+                            lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
+                            magna, non aliquam nulla tempus lacinia.
+                        </p>
+                    </li>
 
-                <li>
-                    <h3>
-                        Dublin Core
-                    </h3>
+                    <li>
+                        <h3>
+                            Dublin Core
+                        </h3>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        semper ac orci in hendrerit. Donec scelerisque lacus sapien,
-                        pulvinar finibus purus dignissim ac. Proin dignissim auctor
-                        lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
-                        magna, non aliquam nulla tempus lacinia.
-                    </p>
-                </li>
-            </ul>
-            <small>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                            semper ac orci in hendrerit. Donec scelerisque lacus sapien,
+                            pulvinar finibus purus dignissim ac. Proin dignissim auctor
+                            lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
+                            magna, non aliquam nulla tempus lacinia.
+                        </p>
+                    </li>
+                </ul>
+                </div>
+                
+                <div class="side-post-img flex flex-align-center flex-center">
+                    <div>
+                        <img src="img/airplane.jpg" alt="Avião. Photo by Filbert Mangundap on Unsplash">   
+                        <br>                 
+                        <small class="">O uso correto de metatags é indispensável para que seu site esteja no topo das pesquisas do Google. </small>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- <small>
                 Fonte:
                 <a href="https://www.w3schools.com/tags/tag_meta.asp" rel="author" type="text/html">W3schools.com</a>
                 <i class="fas fa-book"></i>
             </small>
-            <div class="pontilhado"></div>
+            <div class="pontilhado"></div> -->
         </article>
     </main>
     <footer class="rodape">
