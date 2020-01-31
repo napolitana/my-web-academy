@@ -46,11 +46,11 @@
             </div>
 
 
-            <header class="flex flex-space-between">
+            <header>
                 <h1>HTML: Meta Tags</h1>
-                <div class="article-gif">
-                    <!-- <img src="https://media.tenor.com/images/89af4072334bf549e4a761b62b028302/tenor.gif" alt="" width="132px"> -->
-                </div> 
+                <!-- <div class="article-gif">
+                        <img src="https://media.tenor.com/images/89af4072334bf549e4a761b62b028302/tenor.gif" alt="" width="132px"> 
+                </div>  -->
             </header>
 
 
@@ -83,52 +83,72 @@
             </p>
 
             <div class="flex flex-wrap flex-space-between">
-                <div class="post-list">
-                <h2>Tipos de meta tags</h2>
-                <ul>
-                    <!-- Lista das principais meta tags-->
-                    <li>
-                        <h3>
-                            Http-equiv
-                        </h3>
+                <div class="post-subcategory">
+                    <h2>Tipos de meta tags</h2>
+                    <ul>
+                        <!-- Lista das principais meta tags-->
+                        <li>
+                            <h3>
+                                Http-equiv
+                            </h3>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                            semper ac orci in hendrerit. Donec scelerisque lacus sapien,
-                            pulvinar finibus purus dignissim ac. Proin dignissim auctor
-                            lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
-                            magna, non aliquam nulla tempus lacinia.
-                        </p>
-                    </li>
+                            <p>
+                                O atributo http-equiv é usado basicamente para simular uma resposta HTTP. <br>
+                                <span style="color: #00b4c5; font-weight: bold;"> Ele não sobrescreve a configuração prévia do servidor, portanto só terá efeito se este não tiver o valor atribuído configurado no servidor de origem.</span>
+                                É popularmente usado para dar <strong>refresh</strong> automaticamente em uma página e, antes da versão 5 do HTML, o valor <strong>content-type</strong> era utilizado para especificar o conjunto de caracteres a ser utilizado em uma página Web (Atualmente usa-se a metatag "meta charset = UTF-8"). 
+                                Outros valores comumente usados com o htto-equiv incluem:
+                            </p>
+                            <ul>    
+                                <li>
+                                    Content-Security-Policy
+                                    <pre class="code" >
+                                        <span><</span>meta http-equiv="Content-Security-Policy" content="default-src 'self' *.example.com">
+                                    </pre class="code">
+                                </li>                                    
+                                
+                                <li>
+                                    Refresh
+                                    <pre class="code">
+                                        <span><</span>meta http-equiv="refresh" content="30">
+                                    </pre>
+                                </li>                                    
+                                <li>
+                                    Default-Style
+                                    <pre class="code">
+                                        <span><</span>meta http-equiv="default-style" content="/style.css">
+                                    </pre>
+                                </li>
+                            </ul>                     
+                        </li>
 
-                    <li>
-                        <h3>
-                            Name
-                        </h3>
+                        <li>
+                            <h3>
+                                Name
+                            </h3>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                            semper ac orci in hendrerit. Donec scelerisque lacus sapien,
-                            pulvinar finibus purus dignissim ac. Proin dignissim auctor
-                            lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
-                            magna, non aliquam nulla tempus lacinia.
-                        </p>
-                    </li>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                semper ac orci in hendrerit. Donec scelerisque lacus sapien,
+                                pulvinar finibus purus dignissim ac. Proin dignissim auctor
+                                lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
+                                magna, non aliquam nulla tempus lacinia.
+                            </p>
+                        </li>
 
-                    <li>
-                        <h3>
-                            Dublin Core
-                        </h3>
+                        <li>
+                            <h3>
+                                Dublin Core
+                            </h3>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                            semper ac orci in hendrerit. Donec scelerisque lacus sapien,
-                            pulvinar finibus purus dignissim ac. Proin dignissim auctor
-                            lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
-                            magna, non aliquam nulla tempus lacinia.
-                        </p>
-                    </li>
-                </ul>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                semper ac orci in hendrerit. Donec scelerisque lacus sapien,
+                                pulvinar finibus purus dignissim ac. Proin dignissim auctor
+                                lectus, in accumsan libero auctor ut. Sed faucibus vestibulum
+                                magna, non aliquam nulla tempus lacinia.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
                 
                 <div class="side-post-img flex flex-align-center flex-center">

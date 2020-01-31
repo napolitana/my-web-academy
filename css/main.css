@@ -42,7 +42,6 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
@@ -140,13 +139,14 @@ small {
   font-size: 80%;
 }
 
-p {
+p, .post ul {
   margin-bottom: 24px;
   box-sizing: border-box;
   font-weight: 400;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 28px;
   text-align: justify;
+  font-family: "Montserrat-Regular", sans-serif;
 }
 
 main {
@@ -317,32 +317,33 @@ time::before {
 
 @media (min-width: 576px) {
   .bs-container {
-    max-width: 576px;
+    max-width: 540px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .bs-container {
-    max-width: 768px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .bs-container {
-    max-width: 992px;
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .bs-container {
-    max-width: 1200px;
+    max-width: 1140px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  [class*="col-"] {
+  [class*="col-"], .post-subcategory {
     width: 100%;
   }
+
   .post h1{
       font-size: 30px;
   }

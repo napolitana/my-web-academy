@@ -20,7 +20,7 @@
     margin-bottom: 10px;
 }
 
-.post p, .post small{
+.post small {
     font-family: "Montserrat-Regular", sans-serif;
     line-height: 28px;
 }
@@ -72,13 +72,14 @@
     float: left;
 }
 
-.post-list{
+.post-subcategory{
     width: 70%;
 }
 
 .side-post-img {
     margin-top: 50px;     
     width: 280px;
+    max-height: 450px;
 	text-align: center;
     background-color: #FFF;
     box-shadow: 1px 1px 3px #999;
@@ -106,4 +107,13 @@
     height: 5px;
     border-top: 2px dotted #333;
     margin-top: -14px;
+}
+
+.code{
+    margin: 0;
+    white-space: normal;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    font-family: monospace;
 }
